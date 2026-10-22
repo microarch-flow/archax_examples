@@ -1,0 +1,1642 @@
+{
+  "format_version": "0.04",
+  "hardware_digest": "650f3405a2da8467b6b90eff4032923efa1d882570e7350c57b113b2c41f0cd0",
+  "nodes": {
+    "R00": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P20"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R01": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R02": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R10": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P20"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P20"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R11": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P21"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R12": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "south"
+              ],
+              "branch_destinations": {
+                "south": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R20": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P20"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R21": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P21"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P21"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "east"
+              ],
+              "branch_destinations": {
+                "east": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "R22": {
+      "ingresses": {
+        "north": {
+          "entries": [
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        },
+        "west": {
+          "entries": [
+            {
+              "destinations": [
+                "P22"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P22"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r00": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P00"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P00"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r01": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P01"
+                ]
+              }
+            }
+          ]
+        },
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P00"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P01"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r02": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P01"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P02"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r10": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P10"
+                ]
+              }
+            }
+          ]
+        },
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P10"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r11": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P11"
+                ]
+              }
+            }
+          ]
+        },
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P10"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P11"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r12": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P11"
+                ]
+              }
+            }
+          ]
+        },
+        "south": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P12"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r20": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P20"
+                ]
+              }
+            }
+          ]
+        },
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P10"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r21": {
+      "ingresses": {
+        "east": {
+          "entries": [
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P20"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "local_out"
+              ],
+              "branch_destinations": {
+                "local_out": [
+                  "P21"
+                ]
+              }
+            }
+          ]
+        },
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P20"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "r22": {
+      "ingresses": {
+        "local_in": {
+          "entries": [
+            {
+              "destinations": [
+                "P00"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P00"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P01"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P01"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P02"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P02"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P10"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P10"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P11"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P11"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P12"
+              ],
+              "egresses": [
+                "north"
+              ],
+              "branch_destinations": {
+                "north": [
+                  "P12"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P20"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P20"
+                ]
+              }
+            },
+            {
+              "destinations": [
+                "P21"
+              ],
+              "egresses": [
+                "west"
+              ],
+              "branch_destinations": {
+                "west": [
+                  "P21"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
